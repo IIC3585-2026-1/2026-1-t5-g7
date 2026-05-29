@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CakeUnits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <img class="logo" src="logo.webp" alt="">
+      CakeUnits
+    </h1>
+  </header>
+
+  <main>
+    <section id="view-list">
+      <div class="view-header">
+        <h2>Mis recetas</h2>
+        <button id="btn-add" class="btn btn-primary">+ Agregar receta</button>
+      </div>
+      <p id="loading-msg" class="muted">Cargando ingredientes...</p>
+      <p id="error-msg" class="error hidden"></p>
+      <div id="recipes-grid" class="recipes-grid"></div>
+    </section>
+
+    <section id="view-form" class="hidden">
+      <h2>Nueva receta</h2>
+
+      <label class="field">
+        Nombre
+        <input type="text" id="form-name" placeholder="Ej: Torta de chocolate">
+      </label>
+
+      <label class="field">
+        Porciones que rinde
+        <input type="number" id="form-portions" min="1" max="50" value="8">
+      </label>
+
+      <h3>Ingredientes</h3> 
+      <button id="btn-add-ingredient" class="btn btn-secondary">+ Agregar ingrediente</button>
+      <div id="form-ingredients"></div>
+
+      <p id="form-error" class="error hidden"></p>
+
+      <div class="form-actions">
+        <button id="btn-cancel" class="btn btn-secondary">Cancelar</button>
+        <button id="btn-save" class="btn btn-primary">Guardar receta</button>
+      </div>
+    </section>
+
+    <section id="view-detail" class="hidden">
+      <button id="btn-back" class="btn btn-secondary">&larr; Volver</button>
+      <h2 id="detail-name"></h2>
+
+      <div class="slider-container">
+        <label for="detail-slider">Porciones: <span id="detail-portions"></span></label>
+        <input type="range" id="detail-slider" min="1" max="50" step="1">
+      </div>
+
+      <table id="detail-table" class="ingredients-table">
+        <thead>
+          <tr><th>Ingrediente</th><th>Cantidad</th><th>Unidad</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div class="detail-actions">
+        <button id="btn-delete" class="btn btn-danger">Eliminar receta</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
