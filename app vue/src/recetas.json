@@ -1,0 +1,27 @@
+[
+  {
+    "id": "preload-panqueques",
+    "name": "Panqueques",
+    "portions": 12,
+    "ingredients": [
+      { "ingredient": "harina", "amount": 1.5, "unit": "tazas" },
+      { "ingredient": "leche", "amount": 2, "unit": "tazas" },
+      { "ingredient": "huevo", "amount": 2, "unit": "unidad" },
+      { "ingredient": "polvos de hornear", "amount": 1.5, "unit": "cucharaditas" },
+      { "ingredient": "aceite", "amount": 2, "unit": "cucharadas" }
+    ]
+  },
+  {
+    "id": "preload-mediaslunas",
+    "name": "Mediaslunas",
+    "portions": 20,
+    "ingredients": [
+      { "ingredient": "harina", "amount": 800, "unit": "gramos" },
+      { "ingredient": "leche", "amount": 250, "unit": "ml" },
+      { "ingredient": "huevo", "amount": 2, "unit": "unidad" },
+      { "ingredient": "levadura", "amount": 1, "unit": "cucharadas" },
+      { "ingredient": "mantequilla", "amount": 150, "unit": "gramos" },
+      { "ingredient": "azucar", "amount": 8, "unit": "cucharadas" }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "harina": {
+    "gramos": 1,
+    "tazas": 125,
+    "cucharadas": 8,
+    "cucharaditas": 2.6,
+    "onzas": 28.35
+  },
+  "azucar": {
+    "gramos": 1,
+    "tazas": 200,
+    "cucharadas": 12.5,
+    "cucharaditas": 4.2,
+    "onzas": 28.35
+  },
+  "mantequilla": {
+    "gramos": 1,
+    "tazas": 227,
+    "cucharadas": 14.2,
+    "cucharaditas": 4.7,
+    "onzas": 28.35
+  },
+  "aceite": {
+    "gramos": 1,
+    "ml": 0.92,
+    "tazas": 218,
+    "cucharadas": 13.6,
+    "cucharaditas": 4.5,
+    "onzas": 28.35
+  },
+  "leche": {
+    "gramos": 1,
+    "ml": 1.03,
+    "tazas": 245,
+    "cucharadas": 15.3,
+    "cucharaditas": 5.1,
+    "onzas": 28.35
+  },
+  "agua": {
+    "gramos": 1,
+    "ml": 1,
+    "tazas": 237,
+    "cucharadas": 14.8,
+    "cucharaditas": 4.9,
+    "onzas": 28.35
+  },
+  "sal": {
+    "gramos": 1,
+    "cucharadas": 18,
+    "cucharaditas": 6,
+    "onzas": 28.35
+  },
+  "polvos de hornear": {
+    "gramos": 1,
+    "cucharadas": 12,
+    "cucharaditas": 4,
+    "onzas": 28.35
+  },
+  "cacao": {
+    "gramos": 1,
+    "tazas": 85,
+    "cucharadas": 5.3,
+    "cucharaditas": 1.8,
+    "onzas": 28.35
+  },
+  "huevo": {
+    "unidad": 50,
+    "gramos": 1
+  },
+  "levadura": {
+    "gramos": 1,
+    "cucharadas": 10,
+    "cucharaditas": 3,
+    "onzas": 28.35
+  }
+}
